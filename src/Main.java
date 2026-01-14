@@ -13,6 +13,7 @@ public class Main {
         //JS의 console.log 랑 비슷하다. 개행을 해주지 않는다.
         //System.out.printf("Hello and welcome!");
         //만약 개행을 하고 싶을땐, prinln 메소드 호출로 해결
+        //println제외.  print, printfs는 개행을 해주지 않는다
         System.out.println("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
