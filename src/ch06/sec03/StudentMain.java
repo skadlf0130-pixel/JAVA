@@ -18,6 +18,7 @@ public class StudentMain {
         //★★★ 생성자를 정의하지 않으면 기본 생성자는 자동으로 만들어진다.
 
         Student s1 = new Student();
+        s1.introduceMySelf();
         s1.no =1;
         s1.name = "권수영";
         s1.introduceMySelf();
