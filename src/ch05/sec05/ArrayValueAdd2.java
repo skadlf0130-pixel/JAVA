@@ -22,7 +22,11 @@ public class ArrayValueAdd2 {
             arr2[i+1] = arr[i];
         }
 
-        System.out.println(Arrays.toString(arr2));
+      /*  for(int i=idx; i<arr.length; i++){
+            arr2[ i < idx ? i : i + 1 ] =aar[i];
+        }
+       */
+            System.out.println(Arrays.toString(arr2));
 
     }
 }
