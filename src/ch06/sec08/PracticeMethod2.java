@@ -30,12 +30,22 @@ public class PracticeMethod2 {
       return k ;
     }
 
-    public int[] deepCopy(int[] arr2){
-        int[] arr3 = new int[arr2.length];
-        for(int i=0; i<arr2.length; i++){
-            arr3[i] = arr2[i];
+    public int[] deepCopy(int[] arr){
+        int[] arr2 = new int[arr.length];
+        for(int i=0; i<arr.length; i++){
+            arr2[i] = arr[i];
         }
-        return arr3;
+        return arr2;
+    }
+
+    public int getMax(int[] arr){
+        int max = arr[0];
+        for(int i=0; i<arr.length; i++){
+            if(max<arr[i]){
+                max= arr[i];
+            }
+        }
+        return max;
     }
 }
 

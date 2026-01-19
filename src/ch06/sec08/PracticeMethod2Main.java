@@ -24,5 +24,9 @@ public class PracticeMethod2Main {
         int[] arr2 = pm2.deepCopy(arr);
         System.out.println(Arrays.toString(arr2));
 
+        int max = pm2.getMax(arr);
+        System.out.println(max);
+
+
     }
 }
