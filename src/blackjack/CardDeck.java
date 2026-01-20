@@ -1,11 +1,9 @@
 package blackjack;
 
-import ch06.sec14.Car;
-
 public class CardDeck {
     //Card 객체 주소값 52개를 담을 수있어야 한다.
     private Card[] cards = new Card[52];
-    private String[] patterns = {"스페이스","하트","클로버","다이아"};
+    private String[] patterns = {"스페이드","하트","클로버","다이아"};
 
     //CardDeck을 기본생성자로 호출만 하여도
     //Card객체 52개를 생성하여 cards가 가리키는
@@ -20,7 +18,7 @@ public class CardDeck {
         for(int i=0; i<patterns.length; i++ ){
             String pattern = patterns[i];
 
-            for(int d=1; d<=13; d++){
+                for(int d=1; d<=13; d++){
                 String denomination = null; // 정수 > 문자열
 
                 switch (d){
@@ -28,6 +26,7 @@ public class CardDeck {
                     case 11 : denomination = "J";break;
                     case 12 : denomination = "Q";break;
                     case 13 : denomination = "K";break;
+                    default: denomination = String.valueOf(d);
                 }
                 Card c = new Card(pattern,denomination);
                 cards[idx++] = c;
