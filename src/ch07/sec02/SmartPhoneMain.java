@@ -14,8 +14,6 @@ public class SmartPhoneMain {
         sp.sendMessage("반가워");
 
 
-
-
         }
     }
 
