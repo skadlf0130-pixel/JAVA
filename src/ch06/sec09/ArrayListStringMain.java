@@ -47,3 +47,5 @@ public class ArrayListStringMain {
 
     }
 }
+// this. 속성과 메소드 사용
+// this() 생성자 호출
