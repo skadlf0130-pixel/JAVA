@@ -19,4 +19,11 @@ public class Card {
         return this.denomination;
     }
 
+    @Override
+    public String toString(){
+        return String.format("Card - %s(%s)", pattern, denomination);
+    }
+
+
+
 }
