@@ -15,11 +15,6 @@ public class Dealer extends Gamer {
         int score = Rule.calcScore(receivedCards);
         return score <= DRAW_LIMIT;
     }
-    public void showYourCards(){
-        for(int i=0; i<openCard().length; i++ ){
-        System.out.println();
-        }
-    }
 
 
 }

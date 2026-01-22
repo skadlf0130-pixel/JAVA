@@ -5,3 +5,6 @@ public class WinnerMain {
         Rule.whoIsWinner(null,null);
     }
 }
+
+//this. 은 속성과 메소드 호출
+//this()는 다른생성자 호출
